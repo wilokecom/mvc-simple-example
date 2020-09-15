@@ -1,24 +1,9 @@
 <?php
-require_once "Request.php";
-require_once "Router.php";
-$aRouter = include "configs/routers.php";
+use mvc_simple_example\Core\Request;
+use mvc_simple_example\Core\App;
+use mvc_simple_example\Core\Router;
+require_once 'vendor/autoload.php';
+require_once 'Function/function.php';
 
-function loadView($file)
-{
-	if (strpos($file, '.php') === false) {
-		$file .= '.php';
-	}
-
-	$file = "src/Views/" . $file;
-	if (file_exists($file)) {
-		include $file;
-	}
-}
-
-function isMatchedRoute($route) {
-	return $route === Request::route();
-}
-
-$oRoute = new Router();
-$oRoute->setRouter($aRouter)->direct(Request::route());
-
+App::bind('configs/app',require_once 'configs/app.php');
+Router::Load('configs/router.php')->dirct(Request::uri(),Request::method());

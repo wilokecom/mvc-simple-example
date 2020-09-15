@@ -1,10 +1,9 @@
 <div class="ui pointing menu">
 	<?php
-	$aNavigation = include "configs/navigation.php";
-	foreach ($aNavigation as $navigationKey => $navigationValue):
+	$aNavigation = include "configs/app.php";
+	foreach ($aNavigation['Navigation'] as $navigationKey => $navigationValue):
 		?>
-        <a class="<?php echo isMatchedRoute($navigationKey) ? 'active' : ''; ?> item" href="?route=<?php echo
-		$navigationKey; ?>">
+        <a class="<?php echo isMatchedRoute($navigationKey) ? 'active' : ''; ?> item" href="<?=\mvc_simple_example\core\URL::url($navigationKey)?>">
 			<?php echo $navigationValue; ?>
         </a>
 	<?php endforeach; ?>
