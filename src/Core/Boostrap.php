@@ -1,17 +1,24 @@
 <?php
-require_once 'Request.php';
-require_once 'Router.php';
+require_once "Request.php";
+require_once "Router.php";
+$aRouter = include "configs/routers.php";
 
 function loadView($file)
 {
-	if (file_exists('src/Views/' . $file)) {
-		include 'src/Views/' . $file;
+	if (strpos($file, '.php') === false) {
+		$file .= '.php';
+	}
+
+	$file = "src/Views/" . $file;
+	if (file_exists($file)) {
+		include $file;
 	}
 }
 
-$route = isset($_REQUEST['route']) ? $_REQUEST['route'] : 'home';
+function isMatchedRoute($route) {
+	return $route === Request::route();
+}
 
-$oRouter = new Router();
+$oRoute = new Router();
+$oRoute->setRouter($aRouter)->direct(Request::route());
 
-$oRouter->setRouter(include 'configs/router.php');
-$oRouter->direct($route);
