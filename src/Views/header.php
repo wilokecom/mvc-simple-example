@@ -5,8 +5,7 @@
     <link rel="stylesheet" href="assets/semantic-ui/semantic.css">
     <style>
         body {
-            max-width: 1200px;
-            margin: 20px auto;
+            padding: 50px;
         }
     </style>
 </head>

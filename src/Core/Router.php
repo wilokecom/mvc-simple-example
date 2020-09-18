@@ -3,26 +3,23 @@
 
 class Router
 {
-	private $aRouter;
+	public $aRouter = [];
 
-	public function setRouter($router)
+	public function setRouter($route)
 	{
-		$this->aRouter = $router;
-
+		$this->aRouter = $route;
 		return $this;
 	}
 
-	public function direct($route)
+	public function direct($method, $route)
 	{
-		if (isset($this->aRouter[$route])) {
-			$currentRoute = $this->aRouter[$route];
+		if (isset($this->aRouter[$method][$route])) {
+			list($controller, $methods) = explode('@', $this->aRouter[$method][$route]);
 
-			list($controller, $method) = explode('@', $currentRoute);
-
-			include "src/Controllers/" . $controller . '.php';
-
-			$oCurrentRoute = new $controller;
-			$oCurrentRoute->{$method}();
+			include 'src/Controllers/' . $controller . '.php';
+			$oPage = new $controller;
+			$oPage->{$methods}();
 		}
 	}
+
 }

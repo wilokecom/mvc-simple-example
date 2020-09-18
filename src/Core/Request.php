@@ -1,9 +1,21 @@
 <?php
 
+
 class Request
 {
-	public static function route()
+	public static function uri()
 	{
-		return isset($_REQUEST['route']) ? $_REQUEST['route'] : 'home';
+		if(isset($_REQUEST['route'])){
+		return str_replace(
+			'?route=',
+			'',
+			$_REQUEST['route']
+		);
+		}
+	}
+
+	public static function method()
+	{
+		return $_SERVER['REQUEST_METHOD'];
 	}
 }

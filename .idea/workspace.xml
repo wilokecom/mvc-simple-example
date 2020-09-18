@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:bai1" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:features" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="871288e9-115e-4b0a-b526-fdacc7ea2e3c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Function/function.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/App.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/URL.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/register/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/configs/navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/configs/router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/AboutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/AboutController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/ContactController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Boostrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Boostrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/footer.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="huy/features/simple-router" />
+                    <option name="lastUsedInstant" value="1600238844" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1600238843" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hZxe6eDolCsjysUaFdHjOMm1O3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mvc3" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="570" y="231" width="374" height="337" key="FileChooserDialogImpl" timestamp="1600328892220">
+      <screen x="0" y="27" width="1308" height="741" />
+    </state>
+    <state x="570" y="231" width="374" height="337" key="FileChooserDialogImpl/0.27.1308.741@0.27.1308.741" timestamp="1600328892220" />
+    <state x="714" y="298" width="424" height="491" key="FileChooserDialogImpl/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1600238524778" />
+    <state x="722" y="443" width="417" height="201" key="Github.CreateGistDialog" timestamp="1600253886758">
+      <screen x="0" y="0" width="1639" height="1080" />
+    </state>
+    <state x="722" y="443" width="417" height="201" key="Github.CreateGistDialog/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1600253886758" />
+    <state x="528" y="205" width="473" height="512" key="NewPhpClassDialog" timestamp="1600322585050">
+      <screen x="0" y="27" width="1308" height="741" />
+    </state>
+    <state x="528" y="205" width="473" height="512" key="NewPhpClassDialog/0.27.1308.741@0.27.1308.741" timestamp="1600322585050" />
+    <state x="661" y="259" width="529" height="568" key="NewPhpClassDialog/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1600247021847" />
+    <state x="579" y="346" width="319" height="156" key="NewPhpFileDialog" timestamp="1600322800789">
+      <screen x="0" y="27" width="1308" height="741" />
+    </state>
+    <state x="579" y="346" width="319" height="156" key="NewPhpFileDialog/0.27.1308.741@0.27.1308.741" timestamp="1600322800789" />
+    <state x="726" y="465" width="399" height="156" key="NewPhpFileDialog/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1600253804105" />
+  </component>
+</project>

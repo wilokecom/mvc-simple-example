@@ -1,4 +1,7 @@
 <?php
 include "src/Views/header.php";
-echo "<h1>About</h1>";
+?>
+	<h1>about</h1>
+<?php
 include "src/Views/footer.php";
+?>
