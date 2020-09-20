@@ -1,14 +1,19 @@
 <div class="ui pointing menu">
-    <a class="active item" href="/home">
-        Home
-    </a>
-    <a class="item" href="/about">
-        About
-    </a>
-    <a class="item" href="/contact">
-        Contact
-    </a>
-    <a class="item" href="/register">
-        Register
-    </a>
+	<?php
+	$aNavigation = include "configs/navigation.php";
+	foreach ($aNavigation as $navigationKey => $navigationValue):
+		?>
+        <a class="<?php echo isMatchedRoute($navigationKey) ? 'active' : ''; ?> item" href="?route=<?php echo
+		$navigationKey; ?>">
+			<?php echo $navigationValue; ?>
+        </a>
+	<?php endforeach; ?>
+    <div class="right menu">
+        <div class="item">
+            <div class="ui transparent icon input">
+                <input type="text" placeholder="Search...">
+                <i class="search link icon"></i>
+            </div>
+        </div>
+    </div>
 </div>

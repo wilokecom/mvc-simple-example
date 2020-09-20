@@ -1,9 +1,9 @@
 <?php
 
-
 class ContactController
 {
-	public function loadIndex() {
-		loadView('contact/index.php');
+	public function loadIndex()
+	{
+		loadView("contact/index");
 	}
 }

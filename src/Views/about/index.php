@@ -4,5 +4,5 @@ include 'src/Views/navigation.php';
 ?>
 	<h1>About page</h1>
 <?php
-
-include 'src/Views/footer.php';
+echo "<h1>About</h1>";
+include "src/Views/footer.php";

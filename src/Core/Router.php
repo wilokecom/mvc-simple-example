@@ -1,12 +1,13 @@
 <?php
 
+
 class Router
 {
-	protected $aRouter;
+	private $aRouter;
 
-	public function setRouter($route)
+	public function setRouter($router)
 	{
-		$this->aRouter = $route;
+		$this->aRouter = $router;
 		return $this;
 	}
 
