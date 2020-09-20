@@ -1,5 +1,8 @@
 <?php
 include 'src/Views/header.php';
 include 'src/Views/navigation.php';
-echo '<div class="ui"><h1>About</h1></div>';
+?>
+	<h1>About page</h1>
+<?php
+
 include 'src/Views/footer.php';

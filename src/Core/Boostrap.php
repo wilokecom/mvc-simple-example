@@ -9,9 +9,9 @@ function loadView($file)
 	}
 }
 
-$route = isset($_REQUEST['route']) ? $_REQUEST['route'] : 'home';
 
 $oRouter = new Router();
 
 $oRouter->setRouter(include 'configs/router.php');
-$oRouter->direct($route);
+
+$oRouter->direct(Request::method(), Request::uri());

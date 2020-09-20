@@ -7,17 +7,18 @@ class Router
 	public function setRouter($route)
 	{
 		$this->aRouter = $route;
+		return $this;
 	}
 
-	public function direct($route)
+	public function direct($method, $route)
 	{
-		if (isset($this->aRouter[$route])) {
-			$pasteController = explode('@', $this->aRouter[$route]);
+		if (isset($this->aRouter[$method][$route])) {
+			list($controller, $method) = explode('@', $this->aRouter[$method][$route]);
 
-			include 'src/Controllers/'.$pasteController[0].'.php';
-			$oInit = new $pasteController[0];
+			include 'src/Controllers/' . $controller . '.php';
+			$oInit = new $controller;
 
-			$oInit->{$pasteController[1]}();
+			$oInit->{$method}();
 		} else {
 			echo "This route does not exist";
 		}

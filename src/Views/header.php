@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>This is my website</title>
-    <base href="http://localhost:8888/dev.php.com/Basic/">
+    <base href="188.166.244.131">
     <link rel="stylesheet" href="assets/semantic-ui/semantic.css">
     <style>
         body{

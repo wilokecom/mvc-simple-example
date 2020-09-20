@@ -6,4 +6,9 @@ class AboutController
 	{
 		loadView('about/index.php');
 	}
+
+	public function handleRegister()
+	{
+
+	}
 }
