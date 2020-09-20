@@ -2,12 +2,14 @@
 
 class Request
 {
-	public static function route()
+	public static function uri()
 	{
-		return trim(parse_url(
+		$uri = str_replace(App::get('configs/app')['baseDir'], '', trim(parse_url(
 			$_SERVER['REQUEST_URI'],
 			PHP_URL_PATH
-		), '/');
+		), '/'));
+
+		return empty($uri) ? 'home' : $uri;
 	}
 
 	public static function method()

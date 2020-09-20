@@ -1,7 +1,10 @@
 <?php
+require_once "App.php";
 require_once "Request.php";
 require_once "Router.php";
-$aRouter = include "configs/routers.php";
+
+App::bind('configs/router', include "configs/router.php");
+App::bind('configs/app', include "configs/app.php");
 
 function loadView($file)
 {
@@ -15,10 +18,11 @@ function loadView($file)
 	}
 }
 
-function isMatchedRoute($route) {
-	return $route === Request::route();
+function isMatchedRoute($route)
+{
+	return $route === Request::uri();
 }
 
 $oRoute = new Router();
-$oRoute->setRouter($aRouter)->direct(Request::route());
-$oRouter->direct(Request::method(), Request::uri());
+$oRoute->setRouter(App::get('configs/router'));
+$oRoute->direct(Request::method(), Request::uri());
