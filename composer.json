@@ -1,7 +1,10 @@
 {
   "autoload": {
-    "psr-4": {
-      "MVC\\": "src/"
-    }
+  "psr-4": {
+    "MVC\\": "src/"
+  }
+},
+  "require": {
+    "ext-mysqli": "*"
   }
 }

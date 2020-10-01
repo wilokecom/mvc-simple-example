@@ -1,17 +1,12 @@
 <?php
 
+namespace MVC\Core;
 
 class Request
 {
 	public static function uri()
 	{
-		if(isset($_REQUEST['route'])){
-		return str_replace(
-			'?route=',
-			'',
-			$_REQUEST['route']
-		);
-		}
+		return trim($_SERVER['REQUEST_URI'], '/');
 	}
 
 	public static function method()

@@ -31,30 +31,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871288e9-115e-4b0a-b526-fdacc7ea2e3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Function/function.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controllers/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Core/App.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Core/URL.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Views/register/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/configs/navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/configs/router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/AboutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/AboutController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/ContactController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Core/Boostrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Boostrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Core/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Request.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/footer.php" afterDir="false" />
-    </list>
+    <list default="true" id="871288e9-115e-4b0a-b526-fdacc7ea2e3c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -95,7 +87,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mvc3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -115,6 +107,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="427" y="276" width="444" height="249" key="#Composer" timestamp="1600445436059">
+      <screen x="0" y="27" width="1308" height="741" />
+    </state>
+    <state x="427" y="276" width="444" height="249" key="#Composer/0.27.1308.741@0.27.1308.741" timestamp="1600445436059" />
     <state x="570" y="231" width="374" height="337" key="FileChooserDialogImpl" timestamp="1600328892220">
       <screen x="0" y="27" width="1308" height="741" />
     </state>

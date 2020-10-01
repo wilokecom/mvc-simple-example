@@ -1,6 +1,6 @@
 <?php
-error_reporting(E_ALL);
 ini_set('display_errors', 1);
+error_reporting(E_ALL);
 
-
-require_once "src/Core/Bootstrap.php";
+include "vendor/autoload.php";
+include "src/Core/Bootstrap.php";

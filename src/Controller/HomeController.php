@@ -1,9 +1,11 @@
 <?php
 
+namespace MVC\Controller;
+
 class HomeController
 {
 	public function loadIndex()
 	{
-		loadView();
+		loadView('home/index');
 	}
 }
