@@ -1,27 +1,39 @@
 <?php
 
+namespace MVC\Core;
 
 class Router
 {
-	private $aRouter;
+	private static  $aRoute;
+	private static $_self;
 
-	public function setRouter($router)
+	public static function getInstance($route)
 	{
-		$this->aRouter = $router;
-		return $this;
+		if (empty(self::$_self)) {
+			self::$_self = new self();
+		}
+		$oRoute = self::$_self;
+		include $route;
+		return self::$_self;
 	}
 
-	public function direct($method, $route)
+	public static function get($uri, $controller)
 	{
-		if (isset($this->aRouter[$method][$route])) {
-			list($controller, $method) = explode('@', $this->aRouter[$method][$route]);
+		self::$aRoute['GET'][$uri] = $controller;
+	}
 
-			include 'src/Controllers/' . $controller . '.php';
-			$oInit = new $controller;
+	public static function post($uri, $controller)
+	{
+		self::$aRoute['POST'][$uri] = $controller;
+	}
 
-			$oInit->{$method}();
-		} else {
-			echo "This route does not exist";
-		}
+	public function direct($method, $uri)
+	{
+		$route = !array_key_exists($uri, self::$aRoute[$method]) ? self::$aRoute[$method]['404'] :
+			self::$aRoute[$method][$uri];
+		list($controller, $directMethod) = explode('@', $route);
+
+		$oInit = new $controller;
+		call_user_func([$oInit, $directMethod]);
 	}
 }

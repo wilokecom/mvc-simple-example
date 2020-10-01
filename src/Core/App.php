@@ -1,21 +1,20 @@
 <?php
 
 
+namespace MVC\Core;
+
+
 class App
 {
-	private static $aRepository;
+	private static $aRoute = [];
 
 	public static function bind($key, $val)
 	{
-		self::$aRepository[$key] = $val;
+		self::$aRoute[$key] = $val;
 	}
 
-	/**
-	 * @param $key
-	 * @return mixed|string
-	 */
 	public static function get($key)
 	{
-		return array_key_exists($key, self::$aRepository) ? self::$aRepository[$key] : '';
+		return array_key_exists($key, self::$aRoute) ? self::$aRoute[$key] : false;
 	}
 }

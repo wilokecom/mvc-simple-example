@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c767b1bc-219a-465e-9a82-93fdeb1ccc85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../mvc1/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc2/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc2/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc2/src/Core/App.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc2/src/Model/ConnectDatabase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc5/Controller/AboutController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc5/Controller/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc5/Controller/PageNotFoundController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc5/Controller/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc5/Controller/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc5/Core/Bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc5/Core/Request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc5/Core/Router.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc5/Database/Connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc5/Model/Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc5/View/404/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc5/View/about/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc5/View/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc5/View/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc5/View/home/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc5/View/navigation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc5/View/register/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc5/View/user/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc5/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc5/config/router.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc5/function/function.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc5/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/App.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/Router.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Database/Connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Database/Query.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/UserModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/user/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvcD/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvcD/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvcD/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvcD/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvca/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvca/src/Core/Bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvcb/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvcb/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvcb/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvcb/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/mvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/mvc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Function/function.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/.versions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/accordion.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/accordion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/accordion.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/accordion.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/ad.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/ad.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/api.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/breadcrumb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/breadcrumb.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/button.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/card.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/card.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/checkbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/checkbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/checkbox.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/checkbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/colorize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/colorize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/comment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/comment.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/container.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/container.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/dimmer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/dimmer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/dimmer.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/dimmer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/divider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/divider.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/dropdown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/dropdown.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/dropdown.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/embed.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/embed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/embed.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/embed.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/feed.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/feed.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/flag.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/flag.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/form.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/form.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/header.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/icon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/icon.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/image.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/image.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/input.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/input.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/item.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/label.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/label.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/list.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/list.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/loader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/loader.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/menu.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/message.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/message.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/modal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/modal.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/modal.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/nag.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/nag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/nag.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/nag.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/placeholder.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/placeholder.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/popup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/popup.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/progress.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/progress.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/progress.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/progress.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/rail.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/rail.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/rating.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/rating.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/rating.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/rating.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/reset.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/reveal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/reveal.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/search.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/search.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/search.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/segment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/segment.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/shape.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/shape.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/shape.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/shape.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/sidebar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/sidebar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/sidebar.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/sidebar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/site.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/site.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/site.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/state.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/state.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/statistic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/statistic.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/step.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/step.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/sticky.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/sticky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/sticky.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/sticky.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/tab.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/tab.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/tab.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/table.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/transition.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/transition.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/transition.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/video.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/video.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/video.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/visibility.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/visibility.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/visit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/components/visit.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/package.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/semantic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/semantic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/semantic.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/semantic.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/themes/default/assets/fonts/brand-icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/themes/default/assets/fonts/brand-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/themes/default/assets/fonts/brand-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/themes/default/assets/fonts/brand-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/themes/default/assets/fonts/brand-icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/themes/default/assets/fonts/icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/themes/default/assets/fonts/icons.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/themes/default/assets/fonts/icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/themes/default/assets/fonts/icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/themes/default/assets/fonts/icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/themes/default/assets/fonts/icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/themes/default/assets/fonts/outline-icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/themes/default/assets/fonts/outline-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/themes/default/assets/fonts/outline-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/themes/default/assets/fonts/outline-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/themes/default/assets/fonts/outline-icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/semantic-ui/themes/default/assets/images/flags.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/navigation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/router.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Controllers/AboutController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Controllers/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Controllers/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Core/Bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Core/Request.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Core/Router.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Views/about/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Views/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Views/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Views/home/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Views/navigation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Views/register/index.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1i1zdVmALgbil906uYazMka9yXM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../mvc-simple-example" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Controller" />
+      <recent name="$PROJECT_DIR$/src/View" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Router.php" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/mvc6/Core/Router.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="389" y="339" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601353168216">
+      <screen x="0" y="0" width="1639" height="1848" />
+    </state>
+    <state x="389" y="339" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1639.1848@0.0.1639.1848" timestamp="1601353168216" />
+    <state x="389" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1601111424833" />
+    <state x="664" y="298" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601356343561">
+      <screen x="0" y="0" width="1639" height="1848" />
+    </state>
+    <state x="664" y="298" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1639.1848@0.0.1639.1848" timestamp="1601356343561" />
+    <state x="570" y="231" width="374" height="337" key="FileChooserDialogImpl" timestamp="1601554345769">
+      <screen x="0" y="27" width="1308" height="741" />
+    </state>
+    <state x="570" y="231" width="374" height="337" key="FileChooserDialogImpl/0.27.1308.741@0.27.1308.741" timestamp="1601554345769" />
+    <state x="714" y="298" width="424" height="491" key="FileChooserDialogImpl/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1601111003570" />
+    <state width="1816" height="351" key="GridCell.Tab.0.bottom" timestamp="1601115076123">
+      <screen x="0" y="0" width="1639" height="1080" />
+    </state>
+    <state width="1816" height="351" key="GridCell.Tab.0.bottom/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1601115076123" />
+    <state width="1816" height="351" key="GridCell.Tab.0.center" timestamp="1601115076123">
+      <screen x="0" y="0" width="1639" height="1080" />
+    </state>
+    <state width="1816" height="351" key="GridCell.Tab.0.center/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1601115076123" />
+    <state width="1816" height="351" key="GridCell.Tab.0.left" timestamp="1601115076123">
+      <screen x="0" y="0" width="1639" height="1080" />
+    </state>
+    <state width="1816" height="351" key="GridCell.Tab.0.left/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1601115076123" />
+    <state width="1816" height="351" key="GridCell.Tab.0.right" timestamp="1601115076123">
+      <screen x="0" y="0" width="1639" height="1080" />
+    </state>
+    <state width="1816" height="351" key="GridCell.Tab.0.right/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1601115076123" />
+    <state width="1816" height="351" key="GridCell.Tab.1.bottom" timestamp="1601115076124">
+      <screen x="0" y="0" width="1639" height="1080" />
+    </state>
+    <state width="1816" height="351" key="GridCell.Tab.1.bottom/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1601115076124" />
+    <state width="1816" height="351" key="GridCell.Tab.1.center" timestamp="1601115076123">
+      <screen x="0" y="0" width="1639" height="1080" />
+    </state>
+    <state width="1816" height="351" key="GridCell.Tab.1.center/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1601115076123" />
+    <state width="1816" height="351" key="GridCell.Tab.1.left" timestamp="1601115076123">
+      <screen x="0" y="0" width="1639" height="1080" />
+    </state>
+    <state width="1816" height="351" key="GridCell.Tab.1.left/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1601115076123" />
+    <state width="1816" height="351" key="GridCell.Tab.1.right" timestamp="1601115076124">
+      <screen x="0" y="0" width="1639" height="1080" />
+    </state>
+    <state width="1816" height="351" key="GridCell.Tab.1.right/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1601115076124" />
+    <state width="1816" height="351" key="GridCell.Tab.2.bottom" timestamp="1601115076124">
+      <screen x="0" y="0" width="1639" height="1080" />
+    </state>
+    <state width="1816" height="351" key="GridCell.Tab.2.bottom/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1601115076124" />
+    <state width="1816" height="351" key="GridCell.Tab.2.center" timestamp="1601115076124">
+      <screen x="0" y="0" width="1639" height="1080" />
+    </state>
+    <state width="1816" height="351" key="GridCell.Tab.2.center/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1601115076124" />
+    <state width="1816" height="351" key="GridCell.Tab.2.left" timestamp="1601115076124">
+      <screen x="0" y="0" width="1639" height="1080" />
+    </state>
+    <state width="1816" height="351" key="GridCell.Tab.2.left/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1601115076124" />
+    <state width="1816" height="351" key="GridCell.Tab.2.right" timestamp="1601115076124">
+      <screen x="0" y="0" width="1639" height="1080" />
+    </state>
+    <state width="1816" height="351" key="GridCell.Tab.2.right/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1601115076124" />
+    <state x="729" y="1107" width="533" height="741" key="NewPhpClassDialog" timestamp="1601343869870">
+      <screen x="0" y="0" width="1639" height="1848" />
+    </state>
+    <state x="729" y="1107" width="533" height="741" key="NewPhpClassDialog/0.0.1639.1848@0.0.1639.1848" timestamp="1601343869870" />
+    <state x="582" y="205" width="425" height="519" key="NewPhpClassDialog/0.27.1308.741@0.27.1308.741" timestamp="1601296760281" />
+    <state x="729" y="259" width="393" height="568" key="NewPhpClassDialog/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1601106695914" />
+    <state x="726" y="465" width="399" height="156" key="NewPhpFileDialog" timestamp="1601090671309">
+      <screen x="0" y="0" width="1639" height="1080" />
+    </state>
+    <state x="726" y="465" width="399" height="156" key="NewPhpFileDialog/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1601090671309" />
+    <state x="317" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1601296686978">
+      <screen x="0" y="27" width="1308" height="741" />
+    </state>
+    <state x="317" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1308.741@0.27.1308.741" timestamp="1601296686978" />
+  </component>
+</project>
