@@ -1,15 +1,12 @@
 <?php
 
+namespace MVC\Core;
+
 class Request
 {
 	public static function uri()
 	{
-		$uri = str_replace(App::get('configs/app')['baseDir'], '', trim(parse_url(
-			$_SERVER['REQUEST_URI'],
-			PHP_URL_PATH
-		), '/'));
-
-		return empty($uri) ? 'home' : $uri;
+		return trim($_SERVER['REQUEST_URI'], '/');
 	}
 
 	public static function method()
