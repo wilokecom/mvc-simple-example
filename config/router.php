@@ -9,5 +9,4 @@ $oRoute->get('register', 'MVC\Controller\RegisterController@loadIndex');
 $oRoute->get('user', 'MVC\Controller\UserController@loadIndex');
 $oRoute->post('register', 'MVC\Controller\RegisterController@handleRegister');
 $oRoute->post('user/delete', 'MVC\Controller\UserController@deleteUser');
-$oRoute->post('user/change', 'MVC\Controller\UserController@changeUser');
-
+$oRoute->post('user/change-password', 'MVC\Controller\UserController@changeUser');

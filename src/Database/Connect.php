@@ -2,44 +2,30 @@
 
 namespace MVC\Database;
 
+use MVC\Core\App;
+
 class Connect
 {
-	private static $con;
-	public static  $isConnected = false;
+	private static $self;
 
-	public static function load()
+	public static function makeConnect()
 	{
-		$aRoute = include 'config/app.php';
-		if (self::$isConnected == false) {
-			self::$isConnected = true;
-			if (!self::$con = mysqli_connect(
-				$aRoute['ConnectDB']['host'],
-				$aRoute['ConnectDB']['username'],
-				$aRoute['ConnectDB']['password'],
-				$aRoute['ConnectDB']['dbname'])
+		if (empty(self::$self)) {
+			if (!self::$self = mysqli_connect(
+				App::get('config/app')['ConnectDB']['host'],
+				App::get('config/app')['ConnectDB']['username'],
+				App::get('config/app')['ConnectDB']['password'],
+				App::get('config/app')['ConnectDB']['dbname'])
 			) {
-				echo "Mysql connect is failed" . mysqli_error(self::$con);
+				echo "Database connect is failed" . mysqli_error(self::$self);
 				die();
 			}
 		}
-		return self::$con;
+		return self::$self;
 	}
-
-//	public static function get()
-//	{
-//		return self::$con;
-//		die;
-//		if (self::$isConnected == true) {
-//			return self::$con;
-//		} else {
-//			echo "Database is not connect";
-//			die();
-//		}
-//	}
 
 	public function __destruct()
 	{
-		mysqli_close(self::$con);
-		self::$isConnected = false;
+		mysqli_close(self::$self);
 	}
 }

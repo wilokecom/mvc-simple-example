@@ -23,8 +23,8 @@ class UserController
 	public function changeUser()
 	{
 		$uid = $_REQUEST['uid'];
-		$newPass = $_REQUEST['newPass'];
-		UserModel::changeUserId($uid, $newPass);
+		$newPass = substr(md5($_REQUEST['newPass']), 0,10);
+		UserModel::changePassUser($uid, $newPass);
 		header("location: " . HomeURL . "user");
 		die;
 	}

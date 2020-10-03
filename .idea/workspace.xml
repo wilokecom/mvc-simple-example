@@ -20,13 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c767b1bc-219a-465e-9a82-93fdeb1ccc85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../mvc0/.idea/mvc3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc1/.idea/MVC.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mvc1/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc1/vendor/.idea/vendor.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mvc2/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mvc2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc2/.idea/mvc2.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mvc2/.idea/php.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mvc2/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mvc2/src/Core/App.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mvc2/src/Model/ConnectDatabase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc4/.idea/mvc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc5/.idea/mvc5.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mvc5/Controller/AboutController.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mvc5/Controller/HomeController.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mvc5/Controller/PageNotFoundController.php" afterDir="false" />
@@ -49,25 +55,31 @@
       <change afterPath="$PROJECT_DIR$/../mvc5/config/router.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mvc5/function/function.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mvc5/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Core/App.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Core/Bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Core/Request.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Core/Router.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/Connect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/Query.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/UserModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/user/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc6/.idea/mvc6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc6/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc6/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc6/src/Controller/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc6/src/Core/App.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc6/src/Core/Bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc6/src/Core/Request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc6/src/Core/Router.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc6/src/Database/Connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc6/src/Database/Query.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc6/src/Model/UserModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc6/src/View/user/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mvcD/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mvcD/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvcD/.idea/mvcD.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mvcD/.idea/php.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mvcD/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvca/.idea/mvca.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mvca/index.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mvca/src/Core/Bootstrap.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mvcb/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mvcb/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvcb/.idea/mvcb.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mvcb/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mvcb/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/mvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/mvc.iml" afterDir="false" />
@@ -245,6 +257,19 @@
       <change beforePath="$PROJECT_DIR$/../config/navigation.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../config/router.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mvc6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mvc6.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Core/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/App.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/Connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Connect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/Query.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Query.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/UserModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/UserModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/user/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/user/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/Controllers/AboutController.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/Controllers/HomeController.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/Controllers/RegisterController.php" beforeDir="false" />
@@ -265,13 +290,36 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -287,8 +335,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../mvc-simple-example" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mvcD" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -305,21 +358,37 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c767b1bc-219a-465e-9a82-93fdeb1ccc85" name="Default Changelist" comment="" />
+      <created>1601693020057</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601693020057</updated>
+      <workItem from="1601693022116" duration="12753000" />
+      <workItem from="1601714284090" duration="6375000" />
+    </task>
+    <servers />
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="389" y="339" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601353168216">
@@ -327,15 +396,16 @@
     </state>
     <state x="389" y="339" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1639.1848@0.0.1639.1848" timestamp="1601353168216" />
     <state x="389" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1601111424833" />
-    <state x="664" y="298" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601356343561">
-      <screen x="0" y="0" width="1639" height="1848" />
+    <state x="664" y="174" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601694919489">
+      <screen x="0" y="0" width="1639" height="1080" />
     </state>
     <state x="664" y="298" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1639.1848@0.0.1639.1848" timestamp="1601356343561" />
-    <state x="570" y="231" width="374" height="337" key="FileChooserDialogImpl" timestamp="1601554345769">
-      <screen x="0" y="27" width="1308" height="741" />
+    <state x="664" y="174" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1601694919489" />
+    <state x="714" y="298" width="374" height="337" key="FileChooserDialogImpl" timestamp="1601700756703">
+      <screen x="0" y="0" width="1639" height="1080" />
     </state>
     <state x="570" y="231" width="374" height="337" key="FileChooserDialogImpl/0.27.1308.741@0.27.1308.741" timestamp="1601554345769" />
-    <state x="714" y="298" width="424" height="491" key="FileChooserDialogImpl/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1601111003570" />
+    <state x="714" y="298" width="424" height="491" key="FileChooserDialogImpl/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1601700756703" />
     <state width="1816" height="351" key="GridCell.Tab.0.bottom" timestamp="1601115076123">
       <screen x="0" y="0" width="1639" height="1080" />
     </state>
@@ -394,9 +464,22 @@
       <screen x="0" y="0" width="1639" height="1080" />
     </state>
     <state x="726" y="465" width="399" height="156" key="NewPhpFileDialog/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1601090671309" />
-    <state x="317" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1601296686978">
-      <screen x="0" y="27" width="1308" height="741" />
+    <state x="736" y="214" width="379" height="659" key="RollbackChangesDialog" timestamp="1601693849760">
+      <screen x="0" y="0" width="1639" height="1080" />
+    </state>
+    <state x="736" y="214" width="379" height="659" key="RollbackChangesDialog/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1601693849760" />
+    <state x="420" y="175" width="1022" height="737" key="SettingsEditor" timestamp="1601694022519">
+      <screen x="0" y="0" width="1639" height="1080" />
+    </state>
+    <state x="420" y="175" width="1022" height="737" key="SettingsEditor/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1601694022519" />
+    <state x="595" y="245" key="run.anything.popup" timestamp="1601693846002">
+      <screen x="0" y="0" width="1639" height="1080" />
+    </state>
+    <state x="595" y="245" key="run.anything.popup/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1601693846002" />
+    <state x="397" y="90" width="843" height="989" key="search.everywhere.popup" timestamp="1601716684919">
+      <screen x="0" y="0" width="1639" height="1080" />
     </state>
     <state x="317" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1308.741@0.27.1308.741" timestamp="1601296686978" />
+    <state x="397" y="90" width="843" height="989" key="search.everywhere.popup/331.1080.1366.768/0.0.1639.1080@0.0.1639.1080" timestamp="1601716684919" />
   </component>
 </project>

@@ -6,7 +6,7 @@ class Request
 {
 	public static function uri()
 	{
-		return trim($_SERVER['REQUEST_URI'], '/');
+		return trim($_SERVER['REQUEST_URI'], implode('', App::get('config/app')['RequestURI']));
 	}
 
 	public static function method()

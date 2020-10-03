@@ -7,7 +7,6 @@ define('HomeURL', 'http://mvc.huy.com/');
 use MVC\Core\Request;
 use MVC\Core\Router;
 use MVC\Core\App;
-use MVC\Database\Connect;
 use MVC\Database\Query;
 use MVC\Model\UserModel;
 
