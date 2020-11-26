@@ -3,8 +3,7 @@
 	$aNavigation = include "configs/navigation.php";
 	foreach ($aNavigation as $navigationKey => $navigationValue):
 		?>
-        <a class="<?php echo isMatchedRoute($navigationKey) ? 'active' : ''; ?> item" href="?route=<?php echo
-		$navigationKey; ?>">
+        <a class="<?php echo isMatchedRoute($navigationKey) ? 'active' : ''; ?> item" href="<?php echo $navigationKey; ?>">
 			<?php echo $navigationValue; ?>
         </a>
 	<?php endforeach; ?>

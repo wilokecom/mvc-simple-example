@@ -4,10 +4,10 @@ class Request
 {
 	public static function uri()
 	{
-		$uri = str_replace(App::get('configs/app')['baseDir'], '', trim(parse_url(
+		$uri = trim(str_replace(App::get('configs/app')['baseDir'], '', parse_url(
 			$_SERVER['REQUEST_URI'],
 			PHP_URL_PATH
-		), '/'));
+		)), '/');
 
 		return empty($uri) ? 'home' : $uri;
 	}

@@ -1,6 +1,5 @@
 <?php
 include 'src/Views/header.php';
-include 'src/Views/navigation.php';
 ?>
     <form action="" class="ui form" method="post">
         <div class="field">

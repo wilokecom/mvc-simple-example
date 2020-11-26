@@ -2,7 +2,6 @@
 require_once "App.php";
 require_once "Request.php";
 require_once "Router.php";
-
 App::bind('configs/router', include "configs/router.php");
 App::bind('configs/app', include "configs/app.php");
 
