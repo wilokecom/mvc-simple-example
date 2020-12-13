@@ -7,6 +7,8 @@ return [
     'register' => 'RegisterController@loadIndex',
   ],
   'POST' => [
-    'register' => 'RegisterController@handleRegister'
+    'register' => 'RegisterController@handleRegister',
+    'delete-user' => 'RegisterController@deleteUser',
+    'ajaxhandler' => 'AjaxController@ajaxHandler'
   ]
 ];

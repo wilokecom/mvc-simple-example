@@ -8,9 +8,26 @@ class RegisterController
 		loadView('register/index.php');
 	}
 
+	public function deleteUser()
+	{
+		$status = Query::connect()->table('users')->delete(['ID' => $_POST['id']]);
+		if (!$status) {
+			die(Query::connect()->getError());
+		}
+
+		redirectTo('register');
+	}
+
 	public function handleRegister()
 	{
-		echo '<pre>';
-		var_export($_POST);die;
+		$aData = $_POST;
+		unset($aData['route']);
+		$aData['password'] = md5($aData['password']);
+		$status = Query::connect()->table('users')->insert($aData);
+		if (!$status) {
+			die(Query::connect()->getError());
+		}
+
+		redirectTo('register');
 	}
 }
