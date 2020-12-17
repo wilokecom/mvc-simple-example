@@ -9,8 +9,8 @@ return [
   ],
   'POST' => [
     'register' => 'Basic\Controllers\RegisterController@handleRegister',
-    'delete-user' => 'Basic\Controllers\RegisterController@deleteUser',
     'ajaxhandler' => 'Basic\Controllers\AjaxController@ajaxHandler',
     'adduser' => 'Basic\Controllers\SqliteUserController@addUser',
+    'deleteuser' => 'Basic\Controllers\SqliteUserController@deleteUser',
   ]
 ];

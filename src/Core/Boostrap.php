@@ -11,9 +11,6 @@ App::bind('configs/router', include "configs/router.php");
 App::bind('configs/app', include "configs/app.php");
 App::bind('configs/database', include "configs/database.php");
 
-//$sqliteQuery = Sqlite::connect()->table('users')->get();
-//$query = new \Basic\Database\Query($sqliteQuery);
-
 function doAction($action, ...$aArgs)
 {
 	if (App::getActions($action)) {

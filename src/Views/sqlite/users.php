@@ -18,7 +18,13 @@ if ($query->havePost()) {
 		while ($query->havePost()) {
 			$query->thePost();
 			?>
-            <li>ID: <?= $post->ID; ?>. Username: <?= $post->username; ?></li>
+            <li>
+                ID: <?= $post->ID; ?>. Username: <?= $post->username; ?>
+                <form action="deleteuser" method="post">
+                    <input type="hidden" name="ID" value="<?= $post->ID; ?>">
+                    <button class="button red" type="submit">Delete</button>
+                </form>
+            </li>
 			<?php
 		}
 		?>
