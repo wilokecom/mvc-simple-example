@@ -1,0 +1,13 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Basic\\": "src/"
+    }
+  },
+  "require": {
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "ext-mysqli": "*",
+    "ext-sqlite3": "*"
+  }
+}
