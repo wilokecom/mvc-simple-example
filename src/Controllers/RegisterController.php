@@ -3,7 +3,7 @@ namespace Basic\Controllers;
 
 use Basic\Core\App;
 use Basic\Database\MysqlQuery;
-use Basic\Database\Sqlite;
+use Basic\Database\SqliteQuery;
 
 class RegisterController
 {
@@ -35,7 +35,7 @@ class RegisterController
 				die(MysqlQuery::connect()->getError());
 			}
 		} else {
-			$sqliteQuery = Sqlite::connect()->table('users')->insert([
+			$sqliteQuery = SqliteQuery::connect()->table('users')->insert([
 				'username' => $_POST['username'],
 				'email'    => $_POST['email'],
 				'password' => md5($_POST['password'])

@@ -1,6 +1,6 @@
 <?php
 
-use Basic\Database\Sqlite;
+use Basic\Database\SqliteQuery;
 
 include "src/Views/header.php";
 echo "<h1>Users</h1>";
@@ -8,7 +8,7 @@ echo "<h1>Users</h1>";
 <?php
 
 
-$sqliteQuery = Sqlite::connect()->table('users')->get();
+$sqliteQuery = SqliteQuery::connect()->table('users')->get();
 $query = new \Basic\Database\Query($sqliteQuery);
 global $post;
 if ($query->havePost()) {
