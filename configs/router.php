@@ -1,12 +1,16 @@
 <?php
 return [
 	'GET' => [
-    'home'  => 'HomeController@loadIndex',
-    'about' => 'AboutController@loadIndex',
-    'contact' => 'ContactController@loadIndex',
-    'register' => 'RegisterController@loadIndex',
+    'home'  => 'Basic\Controllers\HomeController@loadIndex',
+    'about' => 'Basic\Controllers\AboutController@loadIndex',
+    'contact' => 'Basic\Controllers\ContactController@loadIndex',
+    'register' => 'Basic\Controllers\RegisterController@loadIndex',
+    'sqliteusers' => 'Basic\Controllers\SqliteUserController@fetchUsers',
   ],
   'POST' => [
-    'register' => 'RegisterController@handleRegister'
+    'register' => 'Basic\Controllers\RegisterController@handleRegister',
+    'delete-user' => 'Basic\Controllers\RegisterController@deleteUser',
+    'ajaxhandler' => 'Basic\Controllers\AjaxController@ajaxHandler',
+    'adduser' => 'Basic\Controllers\SqliteUserController@addUser',
   ]
 ];

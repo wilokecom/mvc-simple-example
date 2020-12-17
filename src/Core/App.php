@@ -1,9 +1,26 @@
 <?php
-
+namespace Basic\Core;
 
 class App
 {
 	private static $aRepository;
+	private static $aActions;
+
+	public static $firstName = "Wiloke";
+
+	public static function setAction($action, $callback) {
+		self::$aActions[$action][] = $callback;
+//		[
+//			'ajax_handle_register' => [
+//				0 => 'handleRegister'
+//			]
+//		]
+		return true;
+	}
+
+	public static function getActions($action) {
+		return isset(self::$aActions[$action]) ? self::$aActions[$action] : [];
+	}
 
 	public static function bind($key, $val)
 	{
