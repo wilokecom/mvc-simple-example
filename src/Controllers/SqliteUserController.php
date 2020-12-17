@@ -21,6 +21,23 @@ class SqliteUserController
 			'password' => md5($_POST['password'])
 		]);
 
+		if (!$sqliteQuery) {
+			die("We could not insert the user");
+		}
+
+		redirectTo('sqliteusers');
+	}
+
+	public function deleteUser()
+	{
+		$sqliteQuery = Sqlite::connect()->table('users')->delete([
+			'ID' => $_POST['ID']
+		]);
+
+		if (!$sqliteQuery) {
+			die("We could not insert the user");
+		}
+
 		redirectTo('sqliteusers');
 	}
 }

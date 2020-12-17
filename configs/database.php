@@ -7,7 +7,7 @@ return [
 		"password" => "root"
 	],
 	"sqlite" => [
-		"host" => dirname(dirname(__FILE__)) . '/wilokebasic.db'
+		"host" => dirname(dirname(__FILE__)) . '/basic'
 	],
 	"dbms" => "sqlite"
 ];
