@@ -11,19 +11,15 @@ App::bind('configs/router', include "configs/router.php");
 App::bind('configs/app', include "configs/app.php");
 App::bind('configs/database', include "configs/database.php");
 
-echo '<pre>';
-echo 'If else là cách code của những kẻ <strong>chưa đắc đạo</strong> aka <strong> tư duy  Nông Văn Rền</strong>' . '<br />';
-echo '<br />';
-if (App::get('configs/database')['dbms'] == 'sqlite') {
-	echo 'Nếu là sqlite thì: <br />';
-	echo '<br />';
-	var_export(\Basic\Database\Query::connect()->table('users')->get()->fetchArray(SQLITE3_ASSOC));
-} else {
-	echo 'Nếu là mysql thì: <br />';
-	echo '<br />';
-	var_export(\Basic\Database\Query::connect()->table('users')->get()->fetch_assoc());
-}
+$oQuery = \Basic\Database\Query::connect()->table('users');
 
+if ($oQuery->havePost()) {
+	while ($oQuery->havePost()) {
+		$oQuery->thePost();
+		echo '<pre>';
+		var_export($oQuery->post);
+	}
+}
 die;
 
 function doAction($action, ...$aArgs)

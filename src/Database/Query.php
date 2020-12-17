@@ -5,14 +5,20 @@ namespace Basic\Database;
 
 
 use Basic\Core\App;
+use Basic\Database\Engine\IDBConnection;
+use Basic\Database\Engine\IDBQuery;
+use Basic\Database\Engine\MysqlConnection;
+use Basic\Database\Engine\SqliteConnection;
 
 class Query
 {
 	private static $oInit;
-	private static $oDb;
-	private        $_oQuery;
-	private        $hasQuery = null;
-	private        $aResult  = [];
+	private        $oDb;
+	/**
+	 * @var IDBQuery
+	 */
+	private $hasQuery = null;
+	private $aResult  = [];
 	/**
 	 * @var string
 	 */
@@ -30,33 +36,38 @@ class Query
 	 */
 	private $aInsertValues;
 	private $error;
+
 	/**
-	 * @var bool|\mysqli_result|\SQLite3Result
+	 * @var IDBQuery
 	 */
-	private $query;
+	private $oDbQuery;
+
+	public $post;
 
 	public function __construct()
 	{
 		if (!self::$oInit) {
 			if (App::get('configs/database')['dbms'] == 'sqlite') {
-				self::$oDb = new \SQLite3(App::get("configs/database")["sqlite"]["host"], SQLITE3_OPEN_READWRITE);
+				$this->setConnection(new SqliteConnection())->setQuery(new \Basic\Database\Engine\SqliteQuery());
 			} else {
-				$oDb = new \mysqli(
-					App::get("configs/database")["mysql"]["host"],
-					App::get("configs/database")["mysql"]["user"],
-					App::get("configs/database")["mysql"]["password"],
-					App::get("configs/database")["mysql"]["db"]
-				);
-
-				if ($oDb->connect_errno) {
-					die("We could not connect to database: " . $oDb->connect_error);
-				}
-
-				self::$oDb = $oDb;
+				$this->setConnection(new MysqlConnection())->setQuery(new \Basic\Database\Engine\MysqlQuery());
 			}
 		}
 
 		return self::$oInit;
+	}
+
+	private function setConnection(IDBConnection $oDb)
+	{
+		$this->oDb = $oDb->connect();
+		return $this;
+	}
+
+	private function setQuery(IDBQuery $oDbQuery)
+	{
+		$this->oDbQuery = $oDbQuery;
+
+		return $this;
 	}
 
 	public static function connect()
@@ -113,15 +124,15 @@ class Query
 			$this->aInsertValues[] = sprintf(is_numeric($val) ? '%d' : '%s', $val);
 		});
 
-		$result = self::$oDb->query("INSERT INTO {$this->table} (" . implode(", ", $this->aInsertKeys) . ") VALUES ('" .
+		$result = $this->oDb->query("INSERT INTO {$this->table} (" . implode(", ", $this->aInsertKeys) . ") VALUES ('" .
 			implode("','", $this->aInsertValues) . "')");
 
 		if (!$result) {
-			$this->error = self::$oDb->lastErrorMsg();
+			$this->error = $this->oDb->lastErrorMsg();
 			return false;
 		}
 
-		return self::$oDb->lastInsertRowID();
+		return $this->oDb->lastInsertRowID();
 	}
 
 	public function getError()
@@ -146,7 +157,7 @@ class Query
 			$concatWhere = " AND ";
 		});
 
-		return self::$oDb->query("UPDATE " . $this->table . " SET " . $values . " WHERE " . $where);
+		return $this->oDb->query("UPDATE " . $this->table . " SET " . $values . " WHERE " . $where);
 	}
 
 	public function delete(array $aWhere)
@@ -158,10 +169,10 @@ class Query
 			$concatWhere = " AND ";
 		});
 
-		return self::$oDb->query("DELETE FROM " . $this->table . " WHERE " . $where);
+		return $this->oDb->query("DELETE FROM " . $this->table . " WHERE " . $where);
 	}
 
-	public function get()
+	public function query()
 	{
 		$sql = "SELECT " . $this->select . " FROM " . $this->table . " ";
 		if (!empty($this->where)) {
@@ -170,9 +181,9 @@ class Query
 
 		$sql .= $this->orderBy . " " . $this->limit;
 
-		$this->query = self::$oDb->query(trim($sql));
+		$this->oDbQuery->query($this->oDb, trim($sql));
 
-		return $this->query;
+		return $this;
 	}
 
 	public function orWhere(array $aWhere)
@@ -189,14 +200,15 @@ class Query
 		return $this;
 	}
 
-	public function havePost()
+	public function havePost($mode = 'assoc')
 	{
 		if ($this->hasQuery === null) {
-			$this->hasQuery = !empty($this->_oQuery);
+			$this->query();
+			$this->hasQuery = !empty($this->oDbQuery->havePosts());
 			return $this->hasQuery;
 		}
 
-		$this->aResult = $this->_oQuery->fetchArray(SQLITE3_ASSOC);
+		$this->aResult = $this->oDbQuery->get($mode);
 		return !empty($this->aResult);
 	}
 
@@ -204,8 +216,8 @@ class Query
 	public function thePost()
 	{
 		global $post;
-		$post = (object)$this->aResult;
-
+		$this->post = (object)$this->aResult;
+		$post = $this->post;
 		return $this;
 	}
 }

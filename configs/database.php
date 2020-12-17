@@ -9,5 +9,5 @@ return [
 	"sqlite" => [
 		"host" => dirname(dirname(__FILE__)) . '/basic'
 	],
-	"dbms" => "sqlite"
+	"dbms" => "mysql"
 ];
