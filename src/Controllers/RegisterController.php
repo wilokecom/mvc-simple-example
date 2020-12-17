@@ -1,5 +1,9 @@
 <?php
+namespace Basic\Controllers;
 
+use Basic\Core\App;
+use Basic\Database\MysqlQuery;
+use Basic\Database\Sqlite;
 
 class RegisterController
 {
@@ -10,9 +14,9 @@ class RegisterController
 
 	public function deleteUser()
 	{
-		$status = Query::connect()->table('users')->delete(['ID' => $_POST['id']]);
+		$status = MysqlQuery::connect()->table('users')->delete(['ID' => $_POST['id']]);
 		if (!$status) {
-			die(Query::connect()->getError());
+			die(MysqlQuery::connect()->getError());
 		}
 
 		redirectTo('register');
@@ -23,9 +27,19 @@ class RegisterController
 		$aData = $_POST;
 		unset($aData['route']);
 		$aData['password'] = md5($aData['password']);
-		$status = Query::connect()->table('users')->insert($aData);
-		if (!$status) {
-			die(Query::connect()->getError());
+
+
+		if (App::get('configs/database')['dbms'] == 'mysql') {
+			$status = MysqlQuery::connect()->table('users')->insert($aData);
+			if (!$status) {
+				die(MysqlQuery::connect()->getError());
+			}
+		} else {
+			$sqliteQuery = Sqlite::connect()->table('users')->insert([
+				'username' => $_POST['username'],
+				'email'    => $_POST['email'],
+				'password' => md5($_POST['password'])
+			]);
 		}
 
 		redirectTo('register');

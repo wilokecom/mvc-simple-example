@@ -1,8 +1,5 @@
 <?php
-
-
 namespace Basic\Query;
-
 
 interface QueryInterface
 {

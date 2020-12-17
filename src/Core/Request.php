@@ -1,4 +1,5 @@
 <?php
+namespace Basic\Core;
 
 class Request
 {

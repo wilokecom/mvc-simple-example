@@ -1,10 +1,12 @@
 <?php
-
+namespace Basic\Core;
 
 class App
 {
 	private static $aRepository;
 	private static $aActions;
+
+	public static $firstName = "Wiloke";
 
 	public static function setAction($action, $callback) {
 		self::$aActions[$action][] = $callback;

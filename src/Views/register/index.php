@@ -1,7 +1,10 @@
 <?php
+
+use Basic\Database\MysqlQuery;
+
 include 'src/Views/header.php';
 
-$aUsers = Query::connect()->table('users')->get();
+$aUsers = MysqlQuery::connect()->table('users')->get();
 ?>
     <h1>Registered Users</h1>
 <?php

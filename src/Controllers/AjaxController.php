@@ -1,5 +1,5 @@
 <?php
-
+namespace Basic\Controllers;
 
 class AjaxController
 {

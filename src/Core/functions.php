@@ -1,5 +1,7 @@
 <?php
 
+use Basic\Controllers\Query;
+
 addAction('ajax_handle_register', 'handleRegister');
 //addAction('ajax_handle_register', 'handleRegister1');
 //
@@ -20,9 +22,3 @@ function handleRegister($aArgs)
 	]);
 	die;
 }
-
-//function handleRegister1($aArgs)
-//{
-//	echo __FUNCTION__;
-//	die;
-//}

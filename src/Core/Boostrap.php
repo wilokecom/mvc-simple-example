@@ -1,18 +1,21 @@
 <?php
-require_once "App.php";
-require_once "Request.php";
-require_once "Router.php";
-require_once "src/Database/Query.php";
-require_once "functions.php";
+
+use Basic\Core\App;
+use Basic\Core\Request;
+use Basic\Core\Router;
+use Basic\Database\Sqlite;
+
+require "vendor/autoload.php";
 
 App::bind('configs/router', include "configs/router.php");
 App::bind('configs/app', include "configs/app.php");
 App::bind('configs/database', include "configs/database.php");
 
+//$sqliteQuery = Sqlite::connect()->table('users')->get();
+//$query = new \Basic\Database\Query($sqliteQuery);
 
-global $aListCallback;
-
-function doAction($action, ...$aArgs) {
+function doAction($action, ...$aArgs)
+{
 	if (App::getActions($action)) {
 		foreach (App::getActions($action) as $callback) {
 			//handleRegister
@@ -24,7 +27,8 @@ function doAction($action, ...$aArgs) {
 }
 
 
-function addAction($action, $callback) {
+function addAction($action, $callback)
+{
 	App::setAction($action, $callback);
 }
 
