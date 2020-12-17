@@ -6,7 +6,7 @@ namespace Basic\Database;
 
 use Basic\Core\App;
 
-class Sqlite
+class SqliteQuery
 {
 	private static $oInit;
 	/**

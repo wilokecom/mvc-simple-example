@@ -4,7 +4,7 @@
 namespace Basic\Controllers;
 
 
-use Basic\Database\Sqlite;
+use Basic\Database\SqliteQuery;
 
 class SqliteUserController
 {
@@ -15,7 +15,7 @@ class SqliteUserController
 
 	public function addUser()
 	{
-		$sqliteQuery = Sqlite::connect()->table('users')->insert([
+		$sqliteQuery = SqliteQuery::connect()->table('users')->insert([
 			'username' => $_POST['username'],
 			'email'    => $_POST['email'],
 			'password' => md5($_POST['password'])
@@ -30,7 +30,7 @@ class SqliteUserController
 
 	public function deleteUser()
 	{
-		$sqliteQuery = Sqlite::connect()->table('users')->delete([
+		$sqliteQuery = SqliteQuery::connect()->table('users')->delete([
 			'ID' => $_POST['ID']
 		]);
 

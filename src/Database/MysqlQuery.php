@@ -171,14 +171,15 @@ class MysqlQuery
 
 		$this->query = self::$oDb->query(trim($sql));
 
-		if (!$this->query) {
-			$this->error = "Database access failed: " . self::$oDb->error;
-		} else {
-			$this->numRows = $this->query->num_rows;
-			$this->aResults = $this->query->fetch_all(MYSQLI_ASSOC);
-
-			return $this->aResults;
-		}
+		return $this->query;
+//		if (!$this->query) {
+//			$this->error = "Database access failed: " . self::$oDb->error;
+//		} else {
+//			$this->numRows = $this->query->num_rows;
+//			$this->aResults = $this->query->fetch_assoc();
+//
+//			return $this->aResults;
+//		}
 	}
 
 	public function orWhere(array $aWhere)
