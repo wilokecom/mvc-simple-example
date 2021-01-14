@@ -40,7 +40,6 @@ function addAction($action, $callback)
 	App::setAction($action, $callback);
 }
 
-
 function loadView($file)
 {
 	if (strpos($file, '.php') === false) {

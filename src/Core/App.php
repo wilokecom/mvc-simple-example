@@ -10,6 +10,7 @@ class App
 
 	public static function setAction($action, $callback) {
 		self::$aActions[$action][] = $callback;
+
 //		[
 //			'ajax_handle_register' => [
 //				0 => 'handleRegister'

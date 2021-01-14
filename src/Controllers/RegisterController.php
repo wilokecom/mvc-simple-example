@@ -28,7 +28,6 @@ class RegisterController
 		unset($aData['route']);
 		$aData['password'] = md5($aData['password']);
 
-
 		if (App::get('configs/database')['dbms'] == 'mysql') {
 			$status = MysqlQuery::connect()->table('users')->insert($aData);
 			if (!$status) {
