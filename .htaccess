@@ -1,7 +1,11 @@
 Options -MultiViews
 RewriteEngine On
+RewriteBase /dev.php.com/Basic/
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-#RewriteRule ^article/([a-z]) index.php?id=$1 [NC]
-RewriteRule ^(.+)$ index.php?route=$1 [L,QSA]
+RewriteRule ^music-mp3/(.+)$ ./mp3/$1.jpg [R=301,NC,L]
+#RewriteRule ^y/foo/(.+)$ y/$1.png [L,NC]
+#RewriteRule ^(x/.+)$ index.php?route=$1 [L,QSA]
 #RewriteRule ^(.+)$ index.php?route=$1 [L,QSA]
+RewriteRule ^((?!mp3).*)$ index.php?route=$1 [L,QSA]
+ErrorDocument 404 http://localhost:8888/dev.php.com/Basic/404.php

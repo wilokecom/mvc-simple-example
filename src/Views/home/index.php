@@ -1,6 +1,8 @@
 <?php
 include "src/Views/header.php";
 echo "<h1>Homepage</h1>";
+
+
 ?>
     <div id="message"></div>
 	<form id="ajaxhandler" class="form ui" action="ajaxhandler" method="POST">

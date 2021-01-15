@@ -12,15 +12,15 @@ App::bind('configs/app', include "configs/app.php");
 App::bind('configs/database', include "configs/database.php");
 
 $oQuery = \Basic\Database\Query::connect()->table('users');
-
-if ($oQuery->havePost()) {
-	while ($oQuery->havePost()) {
-		$oQuery->thePost();
-		echo '<pre>';
-		var_export($oQuery->post);
-	}
-}
-die;
+//
+//if ($oQuery->havePost()) {
+//	while ($oQuery->havePost()) {
+//		$oQuery->thePost();
+//		echo '<pre>';
+//		var_export($oQuery->post);
+//	}
+//}
+//die;
 
 function doAction($action, ...$aArgs)
 {
