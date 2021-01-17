@@ -169,6 +169,7 @@ class MysqlQuery
 
 		$sql .= $this->orderBy . " " . $this->limit;
 
+		echo $sql;die;
 		$this->query = self::$oDb->query(trim($sql));
 
 		return $this->query;

@@ -28,9 +28,17 @@ class RegisterController
 		unset($aData['route']);
 		$aData['password'] = md5($aData['password']);
 
+        $oMysql = new \Basic\Database\MysqlConnect();
+        $query = $oMysql->connect()->query(
+            "INSERT INTO users (ID, username, email, password) VALUES(...)"
+        );
 
 		if (App::get('configs/database')['dbms'] == 'mysql') {
-			$status = MysqlQuery::connect()->table('users')->insert($aData);
+			$status = MysqlQuery::connect()->table('users')->insert([
+			    'username' => 'x',
+                'email' => 'x@gmail.com',
+                'password' => md5('x')
+            ]);
 			if (!$status) {
 				die(MysqlQuery::connect()->getError());
 			}
